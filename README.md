@@ -1,18 +1,18 @@
-🤖 Assistente Virtual por Voz com PLN em Python
+**Assistente Virtual por Voz com PLN em Python**
 
 Este projeto consiste no desenvolvimento de um assistente virtual por voz, capaz de reconhecer comandos falados, interpretá-los usando técnicas de Processamento de Linguagem Natural (PLN) e executar ações automatizadas.
 
-🎯 Objetivo
+**- Objetivo**
 
 Criar um sistema que:
 
-🎤 Converta fala em texto (Speech to Text)
+- Converta fala em texto (Speech to Text)
 
-🔊 Converta texto em fala (Text to Speech)
+- Converta texto em fala (Text to Speech)
 
-🧠 Interprete comandos de linguagem natural
+- Interprete comandos de linguagem natural
 
-⚙️ Execute ações automatizadas, como:
+- Execute ações automatizadas, como:
 
 Pesquisar no Google
 
@@ -24,7 +24,7 @@ Informar farmácias próximas
 
 Encerrar o assistente por comando de voz
 
-🛠 Tecnologias Utilizadas
+**- Tecnologias Utilizadas:**
 
 Python 3.x
 
@@ -38,7 +38,7 @@ Webbrowser
 
 PyAudio
 
-📚 Conceitos Aplicados
+**- Conceitos Aplicados**
 
 Processamento de Linguagem Natural (PLN)
 
@@ -52,6 +52,6 @@ Sistemas interativos
 
 Interfaces naturais
 
-📌 Conclusão
+**Conclusão**
 
 Este projeto demonstra como técnicas de PLN e reconhecimento de fala podem ser utilizadas para criar interfaces mais naturais entre humanos e computadores, possibilitando a construção de sistemas de assistência virtual capazes de interagir por meio da linguagem humana.
