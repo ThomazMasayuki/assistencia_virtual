@@ -16,11 +16,13 @@ Criar um sistema que:
 
 Pesquisar no Google
 
-Buscar informações no Wikipedia
+Buscar informações
 
 Abrir o YouTube
 
-Informar farmácias próximas
+Envio de e-mail personalizado
+
+Rodar automações de forma automática
 
 Encerrar o assistente por comando de voz
 
