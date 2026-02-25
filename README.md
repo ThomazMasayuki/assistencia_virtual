@@ -1,59 +1,98 @@
-**Assistente Virtual por Voz com PLN em Python**
+# Assistente Virtual por Voz com PLN — Python
 
-Este projeto consiste no desenvolvimento de um assistente virtual por voz, capaz de reconhecer comandos falados, interpretá-los usando técnicas de Processamento de Linguagem Natural (PLN) e executar ações automatizadas.
+## Visão Geral
 
-**- Objetivo**
+Este projeto implementa um **assistente virtual por voz** desenvolvido em Python, capaz de interpretar comandos falados, processá-los utilizando técnicas de **Processamento de Linguagem Natural (PLN)** e executar ações automatizadas no sistema.
 
-Criar um sistema que:
+A solução foi projetada com foco em arquitetura modular, permitindo expansão de funcionalidades, integração com APIs externas e adaptação para diferentes cenários de automação e interação homem-máquina.
 
-- Converta fala em texto (Speech to Text)
+---
 
-- Converta texto em fala (Text to Speech)
+## Objetivo
 
-- Interprete comandos de linguagem natural
+Construir um sistema interativo que permita comunicação natural com o usuário por meio de voz, contemplando:
 
-- Execute ações automatizadas, como:
+* Conversão de fala em texto *(Speech-to-Text)*
+* Conversão de texto em fala *(Text-to-Speech)*
+* Interpretação semântica de comandos
+* Execução automatizada de tarefas
 
-Pesquisar no Google
+---
 
-Buscar informações
+## Funcionalidades Implementadas
 
-Abrir o YouTube
+### Interação por Voz
 
-Envio de e-mail personalizado
+* Captura de áudio em tempo real
+* Reconhecimento de fala
+* Respostas audíveis geradas dinamicamente
 
-Rodar automações de forma automática
+### Interpretação de Linguagem Natural
 
-Encerrar o assistente por comando de voz
+* Identificação de intenções do usuário
+* Extração de palavras-chave
+* Classificação de comandos
 
-**- Tecnologias Utilizadas:**
+### Automação de Ações
 
-Python 3.x
+O assistente pode executar comandos como:
 
-SpeechRecognition
+* Abrir páginas web (Google, YouTube etc.)
+* Pesquisar informações
+* Consultar conteúdos via API
+* Enviar e-mails personalizados
+* Executar rotinas automatizadas
+* Encerrar execução por comando de voz
 
-Pyttsx3
+---
 
-Wikipedia API
+## Tecnologias Utilizadas
 
-Webbrowser
+* **Python 3**
+* **SpeechRecognition** → reconhecimento de voz
+* **PyAudio** → captura de áudio
+* **pyttsx3** → síntese de fala
+* **Wikipedia API** → consulta de informações
+* **Webbrowser** → automações web
 
-PyAudio
+---
 
-**- Conceitos Aplicados**
+## Arquitetura do Sistema
 
-Processamento de Linguagem Natural (PLN)
+O projeto foi estruturado em módulos independentes:
 
-Reconhecimento de Fala
+1. **Entrada de Voz** → captação e conversão STT
+2. **Processamento NLP** → interpretação do comando
+3. **Motor de Decisão** → identificação da ação
+4. **Executor de Tarefas** → execução da rotina
+5. **Resposta** → geração de áudio TTS
 
-Síntese de Voz
+---
 
-Automação de tarefas
+## Conceitos Aplicados
 
-Sistemas interativos
+* Processamento de Linguagem Natural
+* Reconhecimento de fala
+* Síntese de voz
+* Automação de tarefas
+* Sistemas interativos
+* Interfaces naturais
+* Arquitetura modular
 
-Interfaces naturais
+---
 
-**Conclusão**
+## Possibilidades de Expansão
 
-Este projeto demonstra como técnicas de PLN e reconhecimento de fala podem ser utilizadas para criar interfaces mais naturais entre humanos e computadores, possibilitando a construção de sistemas de assistência virtual capazes de interagir por meio da linguagem humana.
+O sistema foi projetado para permitir evolução futura, como:
+
+* Integração com APIs externas
+* Comandos personalizados
+* Aprendizado contínuo de intenções
+* Integração com IoT
+* Deploy como serviço local ou remoto
+
+---
+
+## Conclusão
+
+Este projeto demonstra, de forma prática, a aplicação de técnicas de PLN, reconhecimento de voz e automação para construção de interfaces naturais entre humanos e computadores. A implementação evidencia domínio de conceitos de inteligência artificial aplicada, engenharia de software e integração de serviços, consolidando uma base sólida para desenvolvimento de assistentes virtuais mais avançados.
